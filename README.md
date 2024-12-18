@@ -7,7 +7,7 @@
 アプレンティスのカリキュラムの一部を体験していただきます。課題は大きく2つあります。
 
 1. Linux/Git,GitHub
-2. なぜエンジニアになりたいのかの論述
+2. 論述
 
 必要なスキルをまとめたものとして [Skill Doc](skilldoc) が用意されています。Skill Doc の内容を理解することで、エンジニアとして必要なスキルが「わかった」状態になります。
 
@@ -59,9 +59,10 @@ Skill Doc の内容を身につけるためにある課題が [QUEST](quest) で
    1. [パスワードマネージャー](/quest/linux/PASSWORD_MANAGER.md)
    2. 上記のコードをご自身の GitHub 上にアップして提出する。その際に、GitHub フローに従ってプルリクエストを作成し、都度 main ブランチにマージしながら進めること
 
-### 2. なぜエンジニアになりたいのかの論述
+### 2. 論述
 
 1. Skill Doc を読む
    1. [読みやすいドキュメントを書ける](/skilldoc/DOCUMENTATION.md)
 2. 提出 QUEST を提出する
    1. [なぜエンジニアか？](/quest/career/WHY_ENGINEER.md)
+   2. [直近数年で頑張ったこと](/quest/career/MOST_EFFORT.md)
