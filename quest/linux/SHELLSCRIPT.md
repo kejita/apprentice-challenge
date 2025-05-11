@@ -37,6 +37,18 @@ The result:21
 
 なお、割り算の時の割る数が 0 であるケースや、演算子の記号 +, -, *, / が合致しないケースを考慮するかは任意とします。
 
+easy ver:
+echo "Enter two numbers:"
+
+read num1
+read num2
+
+echo "Choose an arithmetic operation(+, -, *, /):"
+
+read ope
+echo $(($num1 $ope $num2))
+
+
 
 
 ## 4. 繰り返し処理
