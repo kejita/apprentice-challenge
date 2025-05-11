@@ -45,11 +45,14 @@ rm TMP.md
 ## 7. シンボリックリンク =ショートカットのようなもの
 
 作成した README.md に対して、シンボリックリンクを貼ってください。シンボリックリンクのファイル名は README_SYMBOLIC.md としてください。作成後、README.md に対して任意の文章を追記してください。その後、symbolic_file の中身を出力し、追記した内容が README_SYMBOLIC.md にも反映されていることを確認してください。
-
+ln -s README.md README_SYMBOLIC.md
+vi README.md
+cat README_SYMBOLIC.md
 
 ## 8. ファイルの検索
 
 ホームディレクトリ以下のファイルに対して、README という文字列が含まれるファイルを全て検索し、出力してください。なお、find コマンドを使用して実現することができます。
+find -name README
 
 ## 9. 検索
 
@@ -63,3 +66,7 @@ lemon
 ```
 
 その上で、sample.txt ファイルから、"a" で始まる単語を検索してください。なお、grep コマンドを使用して実現することができます。
+
+touch sample.txt
+vi sample.txt
+grep ^a sample.txt
