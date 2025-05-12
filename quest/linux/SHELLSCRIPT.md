@@ -48,6 +48,28 @@ echo "Choose an arithmetic operation(+, -, *, /):"
 read ope
 echo $(($num1 $ope $num2))
 
+hard ver:
+echo "Enter two numbers:"
+
+read num1
+read num2
+
+echo "Choose an arithmetic operation(+, -, *, /):"
+
+read ope
+
+if [ $num2 -eq 0 ] && [ "$ope"=="/" ];then
+echo "Do not devide by 0!"
+
+elif [ "$ope" != "+" ] && [ "$ope" != "-" ] && [ "$ope" != "*" ] && [ "$ope" != "/" ] ; then
+
+echo "Input right operation"
+
+else
+        echo $(( $num1 $ope $num2))
+
+fi
+
 
 
 
